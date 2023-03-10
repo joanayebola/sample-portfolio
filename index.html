@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Joan Ayebola</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo" translate="no">
+                    <a href="#header"> J <span>O A N.</span></a>
+                </div>
+                <ul id="sidemenu" class="menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img src="close icon.png" class="icon" alt="" onclick="closemenu()">
+                </ul>
+                <img src="menu icon.png" class="icon" alt="" onclick="openmenu()">
+            </nav>
+        </div>
+
+
+
+        <div class="header-text">
+            <p>Front-end Developer</p>
+            <h1>Hi, I'm <span> Joan </span><br> Ayebola from Nigeria</h1>
+        </div>
+    </div>
+
+    <!----About---->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about me.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am a web developer based in Lagos, Nigeria.
+                        I love what I do and admire the creative process of merging the worlds of logic and creativity
+                        to make user-friendly, accessible and eye-catching websites.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end Development</span> <br> HTML <br>CSS <br> JavaScript <br>Bootstrap
+                                <br>Tailwind
+                                CSS
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2022 - Current </span> <br> Built Several Responsive Webpages with HTML, CSS and
+                                JavaScript
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span> <br>Web Development: HTML, CSS and JavaScript for Web Developers at
+                                John Hopkins University
+                            </li>
+                            <li><span>2022</span> <br>Web Development: The Web Development Bootcamp by Colt Steels
+                                on Udemy</li>
+
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!---------Services--------->
+    <div id="services">
+
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="web-programming (1).png" alt="">
+                    <h2>
+                        Web Development
+                    </h2>
+                    <p>I have gained experience and knowledge in web development over the years. I took Web Development
+                        courses on Udemy and Coursera and now skilled in HTML, CSS, JavaScript and more. I have been
+                        able to develop various responsive websites using Media Query. Some of my project can be found
+                        in the link below</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <img src="web-design.png" alt="">
+                    <h2>
+                        Web Design
+                    </h2>
+                    <p>Web Design is an aspect I am intersted in and currently taking classes and courses to perfect my
+                        knowledge. I can manufacture different themes and will update the tab when I have created a web
+                        design project
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <img src="graphic-designer.png" alt="">
+                    <h2>
+                        Graphic Design
+                    </h2>
+                    <p>I admire the process of Graphic designing, the art of creativity is interesting. Over the years,
+                        I have gained knowledge in graphic design, I am currently taking classes to improve
+                        and better my skills.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Educational Institute Website</h3>
+                        <p>I created an Educational Institute Website using HTML, CSS and Bootstrap</p>
+                        <a href="https://joanayebola.github.io/joxuniversity/" target="_blank">
+                            🔗
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="work2.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Interior Design Website</h3>
+                        <p>I created an Interior Design responsive website using HTML, CSS, Bootstrap and JavaScript</p>
+                        <a href="https://joanayebola.github.io/jojointeriors/" target="_blank">
+                            🔗
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work3.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Created a simple calculator and a quadratic equation calculator using HTML, CSS and
+                            JavaScript</p>
+                        <a href="https://joanayebola.github.io/quadraticcalculator/" target="_blank">
+                            🔗
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://github.com/joanayebola" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!------Contact-->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="content-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><span>📩</span>joanayebola1@gmail.com</p>
+                    <p> <span>📞</span>08142683230</p>
+
+                    <div class="social-icons">
+                        <a href="https://twitter.com/codesbyjojo" target="_blank"> <img src="twitter.svg" alt=""> </a>
+                        <a href="https://linkedin.com/in/joan-ayebola-2b9a33266" target="_blank"> <img
+                                src="linkedin.svg" alt=""> </a>
+                        <a href="https://twitter.com/codebyjojo" target="_blank"> <img src="instagram.svg" alt=""> </a>
+
+
+                    </div>
+
+                    <a href="Joan Ayebola CV.pdf" download class="btn btn-2">Download CV</a>
+                </div>
+
+                <div class="content-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright ©️ Joan Ayebola, made with 💗 by Joan Ayebola</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById('sidemenu')
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw75WFt-hE1pEtPisnMuPsvDHDoUpOsr_zU7Z_hHM5vfiQ8JiHHTYwTwIiSynW0zXOzNA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+
+        })
+    </script>
+</body>
+
+</html>
